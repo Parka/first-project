@@ -15,7 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Parka
+          <span>
+            Learn React with Parka, breaking changes included
+          </span>
         </a>
       </header>
     </div>
