@@ -15,7 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Aprendiendo JavaScri con Parka, somos conejillos de india
+
+          <span>
+            Aprendiendo JavaScri con Parka, somos conejillos de india
+          </span>
+
         </a>
       </header>
     </div>
