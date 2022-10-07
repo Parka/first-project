@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Parka
+          Aprendiendo JavaScri con Parka, somos conejillos de india
         </a>
       </header>
     </div>
