@@ -13,6 +13,7 @@ const HeadlineCard = () => {
           <Tag></Tag>
           <Header></Header>
           <Text></Text>
+          <FooterImg></FooterImg>
         </div>
         <div className={styles.newsimages}>
           <div className={styles.image}></div>
