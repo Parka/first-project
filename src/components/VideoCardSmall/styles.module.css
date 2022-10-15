@@ -1,3 +1,9 @@
 .main {
   background-color: deepskyblue;
 }
+
+.image {
+  width: 325px;
+  height: 200px;
+  background-image: url("./america-inequality-coronavirus-1587146011346-facebookJumbo 2.png");
+}
