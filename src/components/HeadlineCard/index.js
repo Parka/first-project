@@ -2,6 +2,7 @@ import styles from './styles.module.css';
 import Header from "./Header";
 import Text from './Text'
 import Tag from './Tag';
+import FooterImg from './FooterImg';
 
 const HeadlineCard = () => {
   return (
@@ -14,7 +15,8 @@ const HeadlineCard = () => {
           <Text></Text>
         </div>
         <div className={styles.newsimages}>
-          <div></div>
+          <div className={styles.image}></div>
+          <FooterImg></FooterImg>
         </div>
       </div>
     </div>

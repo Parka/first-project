@@ -15,3 +15,10 @@
 
   color: #292219;
 }
+
+.image {
+  width: 670px;
+  height: 390px;
+
+  background: url("./america-inequality-coronavirus-1587146011346-facebookJumbo.png");
+}
