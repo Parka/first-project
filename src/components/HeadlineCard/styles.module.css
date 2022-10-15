@@ -1,1 +1,17 @@
-.main{background-color: aqua;}
+.main {
+  background-color: aqua;
+}
+
+.headline {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+
+  /* Sötét */
+
+  color: #292219;
+}

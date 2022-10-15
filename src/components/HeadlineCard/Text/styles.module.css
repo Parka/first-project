@@ -1,0 +1,14 @@
+.main {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  font-feature-settings: 'liga' off;
+
+  /* Szürke 3 */
+
+  color: #5C5955;
+}
