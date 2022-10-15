@@ -1,3 +1,13 @@
 .main {
 background-color: aliceblue;
+
+
+
+}
+.image {
+    width: 325px;
+    height: 184px;
+
+    background-image: url("./clio-hybride-2 1.png") ;
+
 }
