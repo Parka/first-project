@@ -1,8 +1,8 @@
 import styles from './styles.module.css';
 
-const Tag = () => {
+const Tag = (props) => {
     return (
-      <span className={styles.main}>World Economy</span>
+      <span className={styles.main}>{props.children}</span>
     )
   };
   

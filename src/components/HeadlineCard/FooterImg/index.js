@@ -1,8 +1,8 @@
 import styles from './styles.module.css';
 
-const FooterImg = () => {
+const FooterImg = (props) => {
   return (
-    <span className={styles.main}>Illustration: Karolis Strautniekas</span>
+    <span className={styles.main}>{props.children}</span>
   )
 };
 

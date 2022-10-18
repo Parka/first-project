@@ -4,20 +4,20 @@ import Text from './Text'
 import Tag from './Tag';
 import FooterImg from './FooterImg';
 
-const HeadlineCard = () => {
+const HeadlineCard = (props) => {
   return (
     <div className={styles.main}>
-      <span className={styles.headline}>Headlines</span>
+      <span className={styles.headline}>{props.headline}</span>
       <div className={styles.primarynews}>
         <div className={styles.content}>
-          <Tag></Tag>
-          <Header></Header>
-          <Text></Text>
-          <FooterImg></FooterImg>
+          <Tag>{props.tag}</Tag>
+          <Header>{props.header}</Header>
+          <Text>{props.text}</Text>
+          <FooterImg>{props.time}</FooterImg>
         </div>
         <div className={styles.newsimages}>
           <div className={styles.image}></div>
-          <FooterImg></FooterImg>
+          <FooterImg>{props.imgfooter}</FooterImg>
         </div>
       </div>
     </div>

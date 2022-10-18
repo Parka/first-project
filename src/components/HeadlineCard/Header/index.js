@@ -1,9 +1,8 @@
 import styles from './styles.module.css';
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <h1 className={styles.main}>Cities have stopped being the engines of
-      growth and opportunity they once were</h1>
+    <h1 className={styles.main}>{props.children}</h1>
   )
 };
 
