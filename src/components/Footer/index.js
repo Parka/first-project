@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 
-const Footerpage = () => {
+const Footer = () => {
   return (
     <div className={styles.main}>
       <div className={styles.container}>
@@ -12,4 +12,4 @@ const Footerpage = () => {
   )
 };
 
-export default Footerpage;
+export default Footer;
