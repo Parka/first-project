@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 
-const Footer = () => {
+const Footetpage = () => {
   return (
     <div className={styles.main}>
       
