@@ -1,3 +1,36 @@
-.main{
-    
+.main {
+	position: absolute;
+	width: 1440px;
+	height: 333px;
+	background: #292219;
+}
+
+.logo {
+	position: absolute;
+	width: 100px;
+	height: 27px;
+	left: 40px;
+	top: 40px;
+	background: url("./logo.png");
+}
+
+.copy{
+	
+position: absolute;
+width: 330px;
+height: 14px;
+left: 40px;
+top: 289px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+
 }
