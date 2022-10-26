@@ -1,0 +1,11 @@
+.main {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 110%;
+    /* or 31px */
+    margin: 0;
+
+    color: #292219
+}

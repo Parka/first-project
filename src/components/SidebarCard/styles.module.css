@@ -1,0 +1,151 @@
+.tag {
+/* Future */
+
+
+width: 39px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 100;
+font-size: 14px;
+line-height: 16px;
+font-feature-settings: 'liga' off;
+
+/* Narancs */
+
+color: #FF5C00;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.main {
+/* Frame 1011 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-bottom: 20px;
+gap: 10px;
+
+width: 325px;
+height: 325px;
+
+}
+.image {
+    width: 325px;
+    height: 184px;
+
+    background-image: url("./clio-hybride-2 1.png") ;
+/* clio-hybride-2 1 */
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.body {/* Frame 877 */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    
+    width: 325px;
+    height: 105px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;}
+.header{
+    /* Why is Uber selling its autonomous-vehicle division? */
+
+
+width: 325px;
+height: 52px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 130%;
+/* or 26px */
+
+
+color: #292219;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.text{
+    /* Self-driving cars were meant to be its future */
+
+
+width: 325px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+font-feature-settings: 'liga' off;
+
+/* Sötét */
+
+color: #292219;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.date {/* 25 Feb 2021 */
+
+
+    width: 67px;
+    height: 14px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    font-feature-settings: 'liga' off;
+    
+    /* Szürke 2 */
+    
+    color: #94908C;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
