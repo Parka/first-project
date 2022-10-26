@@ -1,12 +1,14 @@
 .main {
-	position: absolute;
+	display: flex;
+	flex-direction: column;
+	padding: 40px 33px 30px 40px;
 	width: 1440px;
 	height: 333px;
 	background: #292219;
+	justify-content: space-between;
 }
 
 .logo {
-	position: absolute;
 	width: 100px;
 	height: 27px;
 	left: 40px;
@@ -14,9 +16,13 @@
 	background: url("./logo.png");
 }
 
-.copy {
+.container{
+	display: flex;
+    gap: 56px;
+    justify-content: space-between;
+}
 
-	position: absolute;
+.copy {
 	width: 330px;
 	height: 14px;
 	left: 40px;
@@ -47,7 +53,6 @@
 	padding: 0px;
 	gap: 20px;
 
-	position: absolute;
 	width: 333px;
 	height: 196px;
 	left: 270px;
@@ -55,7 +60,7 @@
 }
 
 .column{
-	/* Auto layout */
+/* Auto layout */
 
 display: flex;
 flex-direction: column;
@@ -65,7 +70,7 @@ gap: 20px;
 
 width: 95px;
 height: 190px;
-
+margin:0;
 
 /* Inside auto layout */
 
@@ -78,7 +83,7 @@ flex-grow: 0;
 	/* Home */
 	list-style: none;
 
-width: 36px;
+width: auto;
 height: 15px;
 
 font-family: 'Roboto';
@@ -96,3 +101,179 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+.legalescolumn{
+	/* Frame 948 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 103px;
+height: 196px;
+margin:0;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.legales{
+	/* Terms of Use */
+	list-style: none;
+width: auto;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.social{
+	/* Frame 111 */
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 90px;
+height: 16px;
+}
+
+.ig{
+	/* MKI/Ikon/Instagram */
+
+
+width: 16px;
+height: 16px;
+background: url("./Instagram.png");
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.facebook{
+	
+
+
+width: 17px;
+height: 16px;
+
+background: url("./facebook_logo_2.png");
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.youtube{
+	/* Youtube/White */
+
+
+width: 17px;
+height: 12px;
+background: url("./White.png");
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.substext{
+	display: flex;
+	gap: 51px;
+}
+
+.subcribe{
+	/* Frame 956 */
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 400px;
+height: 78px;
+}
+
+.titlesubs{
+	/* Subscribe and be informed first hand about the actual economic news. */
+
+
+width: 400px;
+height: 52px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+margin:0;
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.stext{
+	/* All the day's headlines and highlights, direct to you every morning. */
+
+
+width: 400px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+
+margin:0;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
