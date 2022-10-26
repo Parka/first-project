@@ -1,0 +1,31 @@
+.image{
+    background-image: url("logodiario.png") ;
+    /* Frame 949 */
+
+
+position: absolute;
+width: 165px;
+height: 44px;
+left: 638px;
+top: 0px;
+
+}
+.date{
+ /* Thursday, February 25, 2021 */
+
+
+position: absolute;
+width: 174px;
+height: 14px;
+left: 67px;
+top: 10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+color: #000000;
+
+}
