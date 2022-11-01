@@ -1,6 +1,9 @@
+import logo from './logo.svg';
+import './App.css';
 import HeadlineCard from "./components/HeadlineCard";
 import SidebarCard from "./components/SidebarCard";
 import VideoCardSmall from "./components/VideoCardSmall";
+import Footer from './components/Footer'
 
 
 function App() {
@@ -15,6 +18,7 @@ function App() {
       text = "Self-driving cars were meant to be its futures"  
       date = "25 Feb 2021" />
       <VideoCardSmall />
+      <Footer />
     </div>
   );
 }
