@@ -1,31 +1,74 @@
+.main{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+}
+
 .image{
     background-image: url("logodiario.png") ;
     /* Frame 949 */
 
 
-position: absolute;
+
 width: 165px;
 height: 44px;
-left: 638px;
-top: 0px;
+
 
 }
 .date{
  /* Thursday, February 25, 2021 */
 
 
-position: absolute;
-width: 174px;
-height: 14px;
-left: 67px;
-top: 10px;
+
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 15px;
+display: flex;
+gap: 12px;
 
 color: #000000;
 
+}
+.right{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+.search{
+    /* Icons/Search */
+width: 22px;
+height: 22px;
+}
+/* Sign in */
+
+.login{width: 43px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+.button{
+    padding: 10px 28px;
+gap: 10px;
+
+
+/* Narancs */
+
+background: #FF5C00;
+border-radius: 30px;
+border: none;
+color: #F1EFEA;
+font-family: "roboto";
+}
+.icon{
+    width: 16px;
+height: 16px;
 }
