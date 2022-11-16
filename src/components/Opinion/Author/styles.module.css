@@ -1,0 +1,15 @@
+.main {
+    height: 21px;
+
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+    
+    margin:0;
+    /* Szürke 2 */
+    
+    color: #94908C;
+}
