@@ -1,0 +1,27 @@
+.main{
+    /* Frame 919 */
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 24px;
+gap: 10px;
+height: fit-content;
+
+/* Narancs */
+
+background: #FF5C00;
+border-radius: 30px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #F1EFEA;
+border: none;
+
+}

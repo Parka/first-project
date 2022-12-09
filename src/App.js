@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import HeadlineCard from "./components/HeadlineCard";
 import SidebarCard from "./components/SidebarCard";
 import VideoCardSmall from "./components/VideoCardSmall";
+import Footer from './components/Footer'
+import Opinion from './components/Opinion'
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       text = "Self-driving cars were meant to be its futures"  
       date = "25 Feb 2021" />
       <VideoCardSmall />
+      <Opinion tag='Opinion' author='Brice Du Trieux' opiniontitle='India turns to private sector to boost sluggish Covid-19 vaccine drive' date='25 Feb 2021'/>
+      <Footer />
     </div>
   );
 }
